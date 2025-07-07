@@ -20,11 +20,62 @@ header > img {
     margin-right: 7px;
 }
 
-header > h1 {
+h1 {
     font-size: 0.9rem;
     font-weight: 500;
 }
 
 .container {
     margin: 45px 40px;
+}
+
+article {
+    display: flex;
+}
+
+.marker {
+    width: 7px;
+    margin-right: 4px;
+}
+
+.entry-image {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 19px;
+
+}
+
+.country {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-right: 12px;
+}
+
+.maps-link {
+    color: #2B283A;
+    font-size: 0.7rem;
+
+    &:hover, &:focus {
+      color: #F55A5A!important;
+    }
+
+    &:visited {
+      color: #918E9B;
+    }
+}
+
+h2 {
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.trip-dates {
+    font-weight: bold;
+}
+
+.entry-text {
+    line-height: 1.5;
+    font-size: 0.8rem;
 }
